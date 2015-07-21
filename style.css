@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+  Image Captcha
+--------------------------------------------------------------*/
+.captcha-image {
+    border: 1px solid;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.captcha-image p span {
+    color: red;
+    font-weight: bold;
+}
+.captcha-image i {
+    padding: 5px;
+    font-size: 40px
+}
+.captcha-image label {
+    display: inline-block;
+}
+.captcha-image label > input{ /* HIDE RADIO */
+  display:none;
+}
+.captcha-image label > input + i{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.captcha-image label > input:checked + i{ /* (CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
