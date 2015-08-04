@@ -40,10 +40,10 @@ Simply add this shortcode `[cf7ic]` to your contact form
 
 == Changelog ==
 
-= 1.0 = 
-* Initial Release 
-
 = 1.1 =
 * Updated files and folder name
 * Added German translation
 * Added French translation (Thanks deuns26)
+
+= 1.0 = 
+* Initial Release 
