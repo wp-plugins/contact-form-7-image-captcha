@@ -3,12 +3,18 @@
  * Plugin Name:       Contact Form 7 Image Captcha
  * Plugin URI:        https://wordpress.org/plugins/contact-form-7-image-captcha/
  * Description:       Add a simple image captcha and Honeypot to contact form 7
- * Version:           1.0
+ * Version:           1.1
  * Author:            Kyle Charlton
  * Author URI:        https://profiles.wordpress.org/ktc_88
  * License:           GNU General Public License v2
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       cf7-image-captcha
  */
+
+add_action('plugins_loaded', 'cf7ic_load_textdomain');
+function cf7ic_load_textdomain() {
+    load_plugin_textdomain( 'cf7-image-captcha', false, dirname( plugin_basename(__FILE__) ) . '/lang' );
+}
 
 // register style on initialization
 add_action('init', 'cf7ic_register_style');
@@ -41,7 +47,7 @@ add_filter('wpcf7_validate_text*','cf7ic_check_if_spam', 10, 2 );
 add_filter('wpcf7_validate_textarea', 'cf7ic_check_if_spam', 10, 2);
 add_filter('wpcf7_validate_textarea*', 'cf7ic_check_if_spam', 10, 2);
 
-// HELP
+// RESOURCE HELP
 // http://stackoverflow.com/questions/17541614/use-thumbnail-image-instead-of-radio-button    
 // http://jsbin.com/pafifi/1/edit?html,css,output   
 // http://jsbin.com/nenarugiwe/1/edit?html,css,output
@@ -55,7 +61,19 @@ function CF7IC_Function( $args ){
     extract( shortcode_atts( array( 'form' => '' ), $args ) );
     
     // Create an array to hold the image library
-    $captchas = array("Heart"=>"fa-heart", "House"=>"fa-home", "Star"=>"fa-star", "Car"=>"fa-car", "Cup"=>"fa-coffee", "Flag"=>"fa-flag", "Key"=>"fa-key", "Truck"=>"fa-truck", "Tree"=>"fa-tree", "Plane"=>"fa-plane");
+    $captchas = array(
+        __( 'Heart', 'cf7-image-captcha') => "fa-heart", 
+        __( 'House', 'cf7-image-captcha') => "fa-home", 
+        __( 'Star', 'cf7-image-captcha')  => "fa-star", 
+        __( 'Car', 'cf7-image-captcha')   => "fa-car", 
+        __( 'Cup', 'cf7-image-captcha')   => "fa-coffee", 
+        __( 'Flag', 'cf7-image-captcha')  => "fa-flag", 
+        __( 'Key', 'cf7-image-captcha')   => "fa-key", 
+        __( 'Truck', 'cf7-image-captcha') => "fa-truck", 
+        __( 'Tree', 'cf7-image-captcha')  => "fa-tree", 
+        __( 'Plane', 'cf7-image-captcha') => "fa-plane"
+    );
+
     $choice = array_rand( $captchas, 3);
     foreach($choice as $key) {
         $choices[$key] = $captchas[$key];
@@ -68,7 +86,7 @@ function CF7IC_Function( $args ){
     
         <div class="captcha-image">
 
-            <p>Please prove you are human by selecting the <span><?php echo $choice[$human]; ?></span></p>
+            <p><?php _e('Please prove you are human by selecting the', 'cf7-image-captcha'); ?> <span><?php echo $choice[$human]; ?></span></p>
             
             <?php
             $i = -1;
