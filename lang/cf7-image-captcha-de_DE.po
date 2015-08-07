@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Contact Form 7 Image Captcha 1.1\n"
 "POT-Creation-Date: 2015-08-03 07:55-0700\n"
-"PO-Revision-Date: 2015-08-04 12:23-0700\n"
+"PO-Revision-Date: 2015-08-07 12:21-0700\n"
 "Last-Translator: \n"
 "Language-Team: Kyle Charlton <kyle@kccomputing.net>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: cf7-image-captcha.php:65
 msgid "Heart"
-msgstr "den Herz"
+msgstr "das Herz"
 
 #: cf7-image-captcha.php:66
 msgid "House"
@@ -41,11 +41,11 @@ msgstr "die Flagge"
 
 #: cf7-image-captcha.php:71
 msgid "Key"
-msgstr "die Schlüssel"
+msgstr "den Schlüssel"
 
 #: cf7-image-captcha.php:72
 msgid "Truck"
-msgstr "der LKW"
+msgstr "den LKW"
 
 #: cf7-image-captcha.php:73
 msgid "Tree"
