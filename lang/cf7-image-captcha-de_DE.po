@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Contact Form 7 Image Captcha 1.1\n"
 "POT-Creation-Date: 2015-08-03 07:55-0700\n"
-"PO-Revision-Date: 2015-08-07 12:21-0700\n"
+"PO-Revision-Date: 2015-08-07 13:20-0700\n"
 "Last-Translator: \n"
 "Language-Team: Kyle Charlton <kyle@kccomputing.net>\n"
 "Language: de\n"
@@ -17,44 +17,44 @@ msgstr ""
 
 #: cf7-image-captcha.php:65
 msgid "Heart"
-msgstr "das Herz"
+msgstr "das Herz aus"
 
 #: cf7-image-captcha.php:66
 msgid "House"
-msgstr "das Haus"
+msgstr "das Haus aus"
 
 #: cf7-image-captcha.php:67
 msgid "Star"
-msgstr "den Stern"
+msgstr "den Stern aus"
 
 #: cf7-image-captcha.php:68
 msgid "Car"
-msgstr "das Auto"
+msgstr "das Auto aus"
 
 #: cf7-image-captcha.php:69
 msgid "Cup"
-msgstr "die Tasse"
+msgstr "die Tasse aus"
 
 #: cf7-image-captcha.php:70
 msgid "Flag"
-msgstr "die Flagge"
+msgstr "die Flagge aus"
 
 #: cf7-image-captcha.php:71
 msgid "Key"
-msgstr "den Schlüssel"
+msgstr "den Schlüssel aus"
 
 #: cf7-image-captcha.php:72
 msgid "Truck"
-msgstr "den LKW"
+msgstr "den LKW aus"
 
 #: cf7-image-captcha.php:73
 msgid "Tree"
-msgstr "den Baum"
+msgstr "den Baum aus"
 
 #: cf7-image-captcha.php:74
 msgid "Plane"
-msgstr "das Flugzeug"
+msgstr "das Flugzeug aus"
 
 #: cf7-image-captcha.php:89
 msgid "Please prove you are human by selecting the"
-msgstr "Bitte beweisen Sie ein Mensch zu sein und wählen"
+msgstr "Bitte beweisen Sie ein Mensch zu sein und wählen Sie"
