@@ -39,6 +39,7 @@ Simply add this shortcode `[cf7ic]` to your contact form
 2. screenshot-2.png
 
 == Changelog ==
+
 = 1.2 =
 * Improved German translation (Thanks Te-Punkt)
 
