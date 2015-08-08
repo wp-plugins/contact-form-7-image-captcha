@@ -17,6 +17,7 @@ Adds an image captcha to your contact form 7 forms by adding the shortcode [cf7i
 = Supported Languages =
 * German
 * French
+* Bulgarian
 
 Like what you see? 
 Please take the time to leave a review.
