@@ -40,6 +40,9 @@ Simply add this shortcode `[cf7ic]` to your contact form
 
 == Changelog ==
 
+= 1.3 =
+* Added Bulgarian translation (Thanks Plamen Petkov)
+
 = 1.2 =
 * Improved German translation (Thanks Te-Punkt)
 

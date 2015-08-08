@@ -3,7 +3,7 @@
  * Plugin Name:       Contact Form 7 Image Captcha
  * Plugin URI:        https://wordpress.org/plugins/contact-form-7-image-captcha/
  * Description:       Add a simple image captcha and Honeypot to contact form 7
- * Version:           1.2
+ * Version:           1.3
  * Author:            Kyle Charlton
  * Author URI:        https://profiles.wordpress.org/ktc_88
  * License:           GNU General Public License v2
